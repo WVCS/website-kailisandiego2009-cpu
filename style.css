@@ -1,3 +1,20 @@
 body {
+body {
+  font-family: system-ui;
+  background: #f06d76;
+  color: white;
+  text-align: center;
+}
+body:hover {
+  font-family: Times New Roman;
+}
+img {
+  width: 10%;
+  float: float;
+  border-radius: 40px;
+}
+img:hover {
+  border-radius: 67px;
+}
 
 }
