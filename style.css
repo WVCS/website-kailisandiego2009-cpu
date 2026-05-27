@@ -29,13 +29,13 @@ header {
   margin-top: 60px; /* Adds space below the fixed nav */
 }
 
-/* Ensures the image stays centered and has a set size */
 .header-img {
   display: block;
-  margin: 20px auto; /* Centers the image block */
-  max-width: 100%;
+  margin: 0 auto;
+  width: 100vw;
   height: auto;
 }
+
 
 .projects-container {
   display: flex;
