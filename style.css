@@ -36,3 +36,10 @@ header {
   max-width: 100%;
   height: auto;
 }
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows boxes to move to a new line if there isn't enough space */
+  justify-content: space-between; /* Optional: adds space between the boxes */
+  gap: 20px; /* Optional: adds space between the boxes */
+}
