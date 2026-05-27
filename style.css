@@ -1,20 +1,38 @@
-body {
-body {
-  font-family: system-ui;
-  background: #f06d76;
-  color: white;
-  text-align: center;
-}
-body:hover {
-  font-family: Times New Roman;
-}
-img {
-  width: 10%;
-  float: float;
-  border-radius: 40px;
-}
-img:hover {
-  border-radius: 67px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+
+/* Centers the text and image container */
+header {
+  text-align: center;
+  margin-top: 60px; /* Adds space below the fixed nav */
+}
+
+/* Ensures the image stays centered and has a set size */
+.header-img {
+  display: block;
+  margin: 20px auto; /* Centers the image block */
+  max-width: 100%;
+  height: auto;
 }
